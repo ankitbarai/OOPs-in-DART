@@ -10,5 +10,15 @@ To make a variable NULL Safe we use '?' after the data type
 for example   ==>  Sting? name;
 
 it means the value of the variable "name" can be null but now it does not affects the execution of the program
-in the main.dart(1-4) if i don't use ? after String then it would affect the execution and i would have to face some errors
+in the main.dart(4-8) if i don't use ? after String then it would affect the execution and i would have to face some errors
 
+2. Class & Objects in Dart
+==> In simple words a class is a blueprint or structure and an object is a product or instance based in that blueprint,
+    for exapmle, there are various persons, each of them are different but the structure of each person is same,  everyone has hands,legs, names, family and etc... etc...
+
+    So Let's take an example of Person, A Person may have a lot of properties and attributes but the values of different persons may be different but the properties and attributes are same. For example Name, everyione has name but the value of names maybe different 
+
+    The person with attributes and properties is a class, and different persons with different values but followinng same class is an Object
+
+
+3. Constructers
