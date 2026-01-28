@@ -35,4 +35,10 @@ in the main.dart(4-8) if i don't use ? after String then it would affect the exe
       Person person1 = Person(name:"Anni", fathername: "Barai",age:22 );
 
 4. Encapsulation
-==> 
+==> When we have to hide original data in another class we use encapsulation, for example
+    in person.dart, the Person class hase 3 private properties and there are 3 setter methods with different names and another file has updated the values of setter methods names but inside those methods the private properties are updated, this is hidden in another file, in encapsulation.dart newName, newFatherName and newAge age updated but acually _name, _fatherName, _age are updated of Person class which were private and the entire process is known as Encapsulation.
+
+    source files: person.dart, encapsulation.dart
+
+5. Inheritance 
+==>
