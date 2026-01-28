@@ -20,5 +20,19 @@ in the main.dart(4-8) if i don't use ? after String then it would affect the exe
 
     The person with attributes and properties is a class, and different persons with different values but followinng same class is an Object
 
+3. Constructors
+==> Constructors are special methods to initialize onjects, It is called automatically when an object is created
+    we create constructor using the same name as class and we pass parameters using constructors which is very optimized method to pass 
+    args to the objects.
+    For exaple 
 
-3. Constructers
+      Person( {required this.name, this.fathername,this.age});  this is a constructor
+
+      name, fatherName and age are properties of class Person and this keyword ensures that the value passing from the object is initializing in defined properties of class
+      required keyword is used to make sure that the particular property must be given a value.
+      by using {}, we have to pass args using parameter names like this 
+
+      Person person1 = Person(name:"Anni", fathername: "Barai",age:22 );
+
+4. Encapsulation
+==> 
