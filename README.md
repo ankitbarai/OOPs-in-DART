@@ -41,4 +41,10 @@ in the main.dart(4-8) if i don't use ? after String then it would affect the exe
     source files: person.dart, encapsulation.dart
 
 5. Inheritance 
-==>
+==>When you defined some data members and member functions in a particular class and you want to use those particular properties with another class then Inheritance comes into glow.
+"extends" keyword is used to implement inheritance.
+
+class newClassName extends oldClassName{
+
+}
+
