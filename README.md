@@ -69,3 +69,10 @@ source file ==> inheritance.dart
 super.showInfo(); this showInfo is from parent class and void showInfo() waas overriding the function
 
 source file ==> constructorInheritance.dart
+
+6. Abstraction
+==> Abstraction helps to hide unnecessary details from the user. abstract classes are used to implement abstraction. the syntax is :
+
+    abstract class className {}
+
+    inside the class we define data members and member functions but the member functions don't have body inside abstract class and the body is created where the body is used.
