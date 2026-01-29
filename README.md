@@ -66,4 +66,6 @@ source file ==> inheritance.dart
     print("Name : $name and Model is : $model");
   }
 
-    super.showInfo(); this showInfo is from parent class and void showInfo() waas overriding the function
+super.showInfo(); this showInfo is from parent class and void showInfo() waas overriding the function
+
+source file ==> constructorInheritance.dart
