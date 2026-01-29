@@ -54,3 +54,16 @@ childClas ==> a class which is going to inherit properties from parent class
 
 source file ==> inheritance.dart
 
+==> Inheritance with constructor
+    To inherit a constructor in another class you must use super keyword like this 
+
+    Lenovo(String brand, int price, this.model,this.name):super(brand,price);  ==> constructorInheritance.dart
+
+    and If the functionNames are overriding then use super keyword like this 
+
+    void showInfo(){
+    super.showInfo();
+    print("Name : $name and Model is : $model");
+  }
+
+    super.showInfo(); this showInfo is from parent class and void showInfo() waas overriding the function
