@@ -76,3 +76,7 @@ source file ==> constructorInheritance.dart
     abstract class className {}
 
     inside the class we define data members and member functions but the member functions don't have body inside abstract class and the body is created where the body is used.
+
+    when another class implements member functions of abstract class then it is must to override @override the functions
+
+    source file ==> abstraction.dart
