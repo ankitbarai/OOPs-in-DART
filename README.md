@@ -85,4 +85,6 @@ source file ==> constructorInheritance.dart
 7. Interface 
 ==> Interfaceprovides a syntax a class must follow
     you can implement interface using normal classes and abstract classes, don't need to use interface keyword like other languages
-    
+
+
+    use implement keyword to implement interface
