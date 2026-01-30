@@ -91,3 +91,11 @@ source file ==> constructorInheritance.dart
     you can also use abstraction to implement interface. inside abstract class create abstract and non abstract methods then follow those interfaces in another class
 
     basically in interface you you follow methods but you can't change type of function and it's return type but you can change function body and this is how you use interface in multiple classes by changiing the body and that is really very very helpful to write codes in optimizeed way
+
+    source file ==>interface.dart
+
+
+8. Mixin
+==> The mixin is a class and we share the code of this class with another class but the difference is that if we want to use code of this      class in another class then use with keyword instead of implement and extends. And another key difference is you can not create object,  and constructor of these classes and it makes the file writing structure in very optimized way.
+
+source file ==> mixin.dart
