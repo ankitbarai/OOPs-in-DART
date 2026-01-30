@@ -86,5 +86,8 @@ source file ==> constructorInheritance.dart
 ==> Interfaceprovides a syntax a class must follow
     you can implement interface using normal classes and abstract classes, don't need to use interface keyword like other languages
 
+    use "implement" keyword to implement interface
 
-    use implement keyword to implement interface
+    you can also use abstraction to implement interface. inside abstract class create abstract and non abstract methods then follow those interfaces in another class
+
+    basically in interface you you follow methods but you can't change type of function and it's return type but you can change function body and this is how you use interface in multiple classes by changiing the body and that is really very very helpful to write codes in optimizeed way
