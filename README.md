@@ -80,3 +80,9 @@ source file ==> constructorInheritance.dart
     when another class implements member functions of abstract class then it is must to override @override the functions
 
     source file ==> abstraction.dart
+
+
+7. Interface 
+==> Interfaceprovides a syntax a class must follow
+    you can implement interface using normal classes and abstract classes, don't need to use interface keyword like other languages
+    
